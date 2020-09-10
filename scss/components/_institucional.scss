@@ -1,0 +1,16 @@
+@import 'variables';
+.institucional__container{
+    background-color: #000; 
+    padding: 20px 0;
+    p{
+        font-family: $primaryFont;
+        color: #fff;
+        font-size:16px;
+        strong{
+            color: #fff;
+            font-weight: bold;
+            font-size:18px;  
+            text-transform: uppercase;
+        }
+    }
+}

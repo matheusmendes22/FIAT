@@ -1,0 +1,55 @@
+@import'variables';
+
+.showroom__container {
+    background-image: url(../../assets/img/banner1.jpg);
+    height: 620px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.showroom__title-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        color: #fff;
+        font-family: $secondaryFont;
+        font-weight: bold;
+        font-size: 96px;
+        text-align: center;
+    }
+
+    a {
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        padding: 10px 30px;
+        font-family: $primaryFont;
+        font-size: 18px;
+        font-weight: 300; 
+        transition: 0.2s;
+
+        &:hover {
+            color: #fff;
+            text-decoration: none;
+            overflow-x: hidden;
+            background:
+                linear-gradient(to bottom, #024bff 0%,
+                    #f0f 100%) !important;
+            background-position: 0 100%;
+            background-repeat: repeat-x;
+            background-size: 0px 4px;
+            text-decoration: none;
+            border-radius: 3px;
+            transition: background-size .2s;
+            background-size: 4px 4px;
+        }
+    }
+
+}

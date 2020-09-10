@@ -1,0 +1,21 @@
+// components
+@import 'components/navbar';
+@import 'components/showroom';
+@import 'components/products';
+@import 'components/cta';
+@import 'components/institucional';
+@import 'components/category';
+@import 'components/social';
+@import 'components/map';
+@import 'components/footer';
+
+// variables
+@import 'components/variables';
+
+
+// general
+body{
+    position: relative;
+    margin: 0;
+    overflow-x: hidden;
+}

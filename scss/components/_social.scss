@@ -1,0 +1,18 @@
+.social__container {
+    background-color: #000;
+    padding: 40px 0;
+    text-align: center;
+    margin: 30px 0 0;
+    a {
+        font-family: $primaryFont;
+        color: #fff;
+        font-size: 16px;
+        img {
+            width: 20px;
+        }
+        &:hover{
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}

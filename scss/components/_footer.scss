@@ -1,0 +1,42 @@
+@import 'variables';
+footer{
+    background-color: #000;
+    padding: 60px 0 30px;
+}
+.footer__block{
+    h2{
+        color: #fff;
+        font-family: $primaryFont;
+        font-size:18px;
+        font-weight: bold;
+    }
+    .footer__social{
+        width: 20px;
+    }
+    p{
+        font-family: $secondaryFont;
+        color: #fff;
+    }
+    ul{
+        list-style: none;
+    }
+    li{
+        margin-bottom: 4px;
+        a{
+            color: #fff;
+            &:hover{
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+}
+.footer__copyright{
+    padding-top: 30px;
+    div{
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}
